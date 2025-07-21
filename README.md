@@ -34,30 +34,6 @@ This plugin registers a custom post type called `cll_project`, integrates **ACF*
 
 ---
 
-## 🧱 Template Structure
-
-### Shortcode Template (`[cll_project item="N"]`)
-- Outputs a grid of projects with:
-  - Featured image or fallback
-  - Title and trimmed content
-  - Meta info using ACF fields
-  - Optional hover effects or category tags
-- Works with or without FacetWP filters
-
-### Single Project Template
-- Structured layout using theme wrappers
-- Left and right content columns
-- Top section:
-  - Title, subtitle, project date
-  - Gallery section
-- Right sidebar:
-  - Project meta list (location, services, equipment)
-  - Custom repeater data
-  - Enquire Now button
-- Optional SVG decorations or scroll animations
-
----
-
 ## 🔧 Requirements
 
 - WordPress 5.8 or higher
@@ -83,3 +59,19 @@ This plugin registers a custom post type called `cll_project`, integrates **ACF*
 4. **Insert Shortcode on Page**:
    ```php
    [cll_project item="9"]
+
+---
+
+## 🧩 Customization
+
+- You can modify the layout by editing the `archive-cll_job.php` file.
+- For custom styling, add CSS to your theme or child theme.
+
+---
+
+## 👤 Author
+
+**Azizul Hakim**  
+[GitHub Profile](https://github.com/azizul96)
+
+---
